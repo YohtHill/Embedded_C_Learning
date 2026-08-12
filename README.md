@@ -9,6 +9,7 @@ Embedded Learning/
 ├── Software/           # 软件学习
 │   └── C/              # C 语言学习（从基础到进阶）
 ├── Hardware/           # 硬件学习
+│   ├── PCB_Prj/        # PCB 工程项目（3 块板卡）
 │   ├── ExperimentTest/ # 实验测试（纹波/电源测试等）
 │   └── Note/           # 硬件设计笔记（PCB/FPC/ESD/指纹模组）
 └── Review/             # 复习与规划
