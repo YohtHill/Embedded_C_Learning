@@ -28,8 +28,9 @@ Embedded Learning/
 - → 详见 [Software/C/README.md](Software/C/README.md)
 
 ### 第二阶段：C 进阶 + STM32 基础 🔄
-- 结构体、共用体、枚举
-- 预处理与宏、多文件工程
+- 结构体、共用体、枚举 ✅（D8、D9）
+- 预处理与宏、条件编译、调试宏 ✅（D10）
+- 多文件工程、头文件、static/extern
 - STM32 寄存器点灯、GPIO、中断、定时器、串口
 - → 详见 [Review/LearningStage/Stage2_规划.md](Review/LearningStage/Stage2_规划.md)
 
@@ -44,7 +45,7 @@ Embedded Learning/
 | 模块 | 状态 |
 |------|------|
 | C 语言基础（D1~D7）| ✅ 完成 |
-| C 进阶（结构体等）| 🔄 进行中 |
+| C 进阶（D8~D10：结构体/共用体/枚举/宏）| 🔄 已学 3 课 |
 | 硬件笔记（PCB/FPC）| ✅ 实习积累 |
 | 实验测试 | 📊 持续更新 |
 
