@@ -1,61 +1,55 @@
-# 嵌入式 C 语言学习笔记
+# Embedded Learning（嵌入式学习）
 
-从零开始学习嵌入式软件开发，使用 C 语言。
+> 从零开始系统学习嵌入式开发，涵盖**软件**与**硬件**两大方向。
 
-## 学习计划（7 天）
+## 仓库结构
 
-| 天 | 主题 | 状态 |
-|----|------|------|
-| D1 | Hello World、变量、基本类型、sizeof | ✅ |
-| D2 | 运算符与类型转换实验 | ✅ |
-| D3 | if/for/while、九九乘法表、求和 | ✅ |
-| D4 | 函数与参数传递 swap、指针 | ✅ |
-| D5 | 数组、冒泡排序、找最大值 | ✅ |
-| D6 | 字符串 strlen/strcpy/strcat、指针写法 | ✅ |
-| D7 | 复盘重写 | ✅ |
+```
+Embedded Learning/
+├── Software/           # 软件学习
+│   └── C/              # C 语言学习（从基础到进阶）
+├── Hardware/           # 硬件学习
+│   ├── ExperimentTest/ # 实验测试（纹波/电源测试等）
+│   └── Note/           # 硬件设计笔记（PCB/FPC/ESD/指纹模组）
+└── Review/             # 复习与规划
+    ├── LearningStage/  # 三阶段学习规划
+    └── DailyReview/    # 每日学习总结
+```
 
-## 学习日记
+## 学习路线
 
-### 2026-08-10（D1~D7 全部完成 🎉）
+### 第一阶段：C 语言基础 ✅
+- Hello World、变量、类型、sizeof
+- 运算符、类型转换、溢出与补码
+- 流程控制、九九乘法表、求和
+- 函数、指针、swap 陷阱
+- 数组、冒泡排序、字符串
+- → 详见 [Software/C/README.md](Software/C/README.md)
 
-**今天完成的内容：**
-- D1: Hello World、变量类型、sizeof（char=1, int=4, double=8）
-- D2: 整数除法（5/2=2）、溢出（char c=300 → 44）、补码（0xFF=-1）
-- D3: if/for/while、九九乘法表（双重循环）、1~100 求和（循环+公式）、char 延时死循环
-- D4: 值传递 vs 指针（swap 陷阱）、用指针真正修改函数外变量
-- D5: 数组（数组名=首地址）、找最大值和下标、冒泡排序
-- D6: 自己实现 strlen/strcpy/strcat、指针写法（*s++）、左移运算符与寄存器操作
-- D7: 复盘 5 题全部独立完成 ✅
+### 第二阶段：C 进阶 + STM32 基础 🔄
+- 结构体、共用体、枚举
+- 预处理与宏、多文件工程
+- STM32 寄存器点灯、GPIO、中断、定时器、串口
+- → 详见 [Review/LearningStage/Stage2_规划.md](Review/LearningStage/Stage2_规划.md)
 
-**核心收获（嵌入式思维）：**
-- 指针 = 存地址的变量，*p 直接操作内存
-- 寄存器 = 单片机里的特殊内存地址，用 `*(volatile unsigned int*)地址` 操作
-- 位运算 `(1<<n)` 置位、`(v>>i)&1` 取位 = 寄存器读写基础
-- 溢出/补码/差分思想（tick 绕回处理）
-- delay（忙等待）vs 定时器中断
+### 第三阶段：嵌入式深入与项目 ⬜
+- 标准库/HAL 库、ADC/DMA/PWM
+- FreeRTOS 实时系统
+- 综合实战项目
+- → 详见 [Review/LearningStage/Stage3_规划.md](Review/LearningStage/Stage3_规划.md)
 
-**工程实践：**
-- 配置了 VS Code + gcc 编译环境（含 UTF-8 编码处理）
-- 安装并配置 Git，代码已推送到 GitHub
-- 使用 `.gitignore` 忽略 exe 编译产物
+## 当前进度
+
+| 模块 | 状态 |
+|------|------|
+| C 语言基础（D1~D7）| ✅ 完成 |
+| C 进阶（结构体等）| 🔄 进行中 |
+| 硬件笔记（PCB/FPC）| ✅ 实习积累 |
+| 实验测试 | 📊 持续更新 |
 
 ## 开发环境
 
 - 系统：Windows
-- 编译器：MSYS2 + MinGW-w64 (gcc 16.1.0)
+- 编译器：MSYS2 + MinGW-w64 (gcc)
 - 编辑器：VS Code
-- 版本控制：Git
-
-## 目录结构
-
-```
-├── C/
-│   ├── Day1/   # D1: Hello World、变量、sizeof、作业1
-│   ├── Day2/   # D2: 运算符、类型转换
-│   ├── Day3/   # D3: 流程控制、九九乘法表、延时演示
-│   ├── Day4/   # D4: 函数、指针 swap、作业
-│   ├── Day5/   # D5: 数组、冒泡排序、作业
-│   ├── Day6/   # D6: 字符串、指针写法、左移寄存器 demo
-│   └── Day7/   # D7: 复盘（5 题全过）
-└── Note/       # 实习硬件学习笔记（PCB、FPC、ESD、指纹模组）→ 详见 Note/README.md
-```
+- 版本控制：Git + GitHub
