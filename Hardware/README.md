@@ -25,4 +25,3 @@ Hardware/
 
 - 实验测试包含完整报告（.md）和分类图片
 - 硬件笔记来自实习积累，包含大量设计规范与示意图
-- PCB 工程项目（Altium Designer，含 SCH/PCB/Gerber/BOM 等）涉及公司内部信息，不随本仓库上传
