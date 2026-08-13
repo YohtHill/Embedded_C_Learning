@@ -45,6 +45,18 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "编译并运行多文件 C 工程",
+            "type": "shell",
+            "command": "chcp 65001 > $null; $env:Path = 'C:\\msys64\\mingw64\\bin;' + $env:Path; $dir = '${fileDirname}'; $main = '${file}'; if ((Split-Path $dir -Leaf) -eq 'Day11') { if (($main -notlike '*_main.c') -and ($main -notlike '*_homework.c')) { $cands = @(Get-ChildItem -Path $dir -Filter *_main.c); if ($cands.Count -eq 1) { $main = $cands[0].FullName } }; $mods = Get-ChildItem -Path $dir -Filter *.c | Where-Object { $_.FullName -ne $main -and $_.Name -notlike '*_main.c' -and $_.Name -notlike '*_homework.c' } | ForEach-Object { $_.FullName }; $all = @($main) + @($mods); $out = Join-Path $dir ([System.IO.Path]::GetFileNameWithoutExtension($main) + '.exe'); gcc -Wall -g -finput-charset=UTF-8 -fexec-charset=UTF-8 $all -o $out } else { $out = Join-Path $dir ([System.IO.Path]::GetFileNameWithoutExtension($main) + '.exe'); gcc -Wall -g -finput-charset=UTF-8 -fexec-charset=UTF-8 $main -o $out }; if ($LASTEXITCODE -eq 0) { & $out }",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
         }
     ]
 }
