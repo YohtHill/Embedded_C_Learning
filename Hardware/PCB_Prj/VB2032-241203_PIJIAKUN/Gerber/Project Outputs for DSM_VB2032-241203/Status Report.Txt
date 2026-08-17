@@ -1,0 +1,30 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [DSM_VB2032-241203.PrjPcb]
+   Generated File[DSM_VB2032-241203_Pcb.GTO]
+   Generated File[DSM_VB2032-241203_Pcb.GTP]
+   Generated File[DSM_VB2032-241203_Pcb.GTS]
+   Generated File[DSM_VB2032-241203_Pcb.GTL]
+   Generated File[DSM_VB2032-241203_Pcb.G1]
+   Generated File[DSM_VB2032-241203_Pcb.G2]
+   Generated File[DSM_VB2032-241203_Pcb.GBL]
+   Generated File[DSM_VB2032-241203_Pcb.GBS]
+   Generated File[DSM_VB2032-241203_Pcb.GBP]
+   Generated File[DSM_VB2032-241203_Pcb.GBO]
+   Generated File[DSM_VB2032-241203_Pcb.GM1]
+   Generated File[DSM_VB2032-241203_Pcb.GM13]
+   Generated File[DSM_VB2032-241203_Pcb.GM15]
+   Generated File[DSM_VB2032-241203_Pcb.GKO]
+   Generated File[DSM_VB2032-241203_Pcb.GPT]
+   Generated File[DSM_VB2032-241203_Pcb.GPB]
+   Generated File[DSM_VB2032-241203_Pcb.GD1]
+   Generated File[DSM_VB2032-241203_Pcb.GG1]
+   Generated File[DSM_VB2032-241203_Pcb.GM]
+   Generated File[DSM_VB2032-241203_Pcb.EXTREP]
+   Generated File[DSM_VB2032-241203_Pcb.REP]
+
+
+Files Generated   : 21
+Documents Printed : 0
+
+Finished Output Generation At 16:13:45 On 2026/8/13

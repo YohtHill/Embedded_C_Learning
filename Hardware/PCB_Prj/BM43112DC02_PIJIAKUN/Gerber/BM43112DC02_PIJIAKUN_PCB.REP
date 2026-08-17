@@ -1,0 +1,326 @@
+*************************************************************
+FileName = BM43112DC02_PIJIAKUN_PCB.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 1
+      File : BM43112DC02_PIJIAKUN_PCB.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D69
+    D70
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : BM43112DC02_PIJIAKUN_PCB.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : BM43112DC02_PIJIAKUN_PCB.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : BM43112DC02_PIJIAKUN_PCB.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : BM43112DC02_PIJIAKUN_PCB.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : BM43112DC02_PIJIAKUN_PCB.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : BM43112DC02_PIJIAKUN_PCB.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : BM43112DC02_PIJIAKUN_PCB.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : BM43112DC02_PIJIAKUN_PCB.GPT
+
+    Adding Layer      : Top Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : BM43112DC02_PIJIAKUN_PCB.GPB
+
+    Adding Layer      : Bottom Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer 1
+      File : BM43112DC02_PIJIAKUN_PCB.GBL
+
+    Adding Layer      : Bottom Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D24
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : BM43112DC02_PIJIAKUN_PCB.G2
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D27
+*************************************************************
+
+*************************************************************
+Generating : POWER
+      File : BM43112DC02_PIJIAKUN_PCB.G1
+
+    Adding Layer      : POWER
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Top Layer 1
+      File : BM43112DC02_PIJIAKUN_PCB.GTL
+
+    Adding Layer      : Top Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D24
+    D25
+    D26
+    D27
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : BM43112DC02_PIJIAKUN_PCB.GD1
+
+    Adding Drill Pair : Top Layer 1-Bottom Layer 1
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : BM43112DC02_PIJIAKUN_PCB.GG1
+
+    Adding Drill Pair : Top Layer 1-Bottom Layer 1
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : BM43112DC02_PIJIAKUN_PCB.GM
+
+
+Used DCodes :
+    D71
+*************************************************************
+

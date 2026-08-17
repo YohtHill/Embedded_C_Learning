@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BM22192DA06_PCB.PcbDoc   2026/8/7  13:49:47
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : BM22192DA06_PCB-RoundHoles.TXT
+ASCII SlotHoles File : BM22192DA06_PCB-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             62        PTH        142.13mm (5.60inch)
+T2      0.5mm (20mil)                                             Slot              2         PTH        15.72mm (0.62inch)
+T3      0.7mm (28mil)                                             Round             2         PTH        4.85mm (0.19inch)
+T4      3mm (118mil)                                              Round             4         PTH        66.00mm (2.60inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              70
+
+Total Processing Time (hh:mm:ss) : 00:00:00

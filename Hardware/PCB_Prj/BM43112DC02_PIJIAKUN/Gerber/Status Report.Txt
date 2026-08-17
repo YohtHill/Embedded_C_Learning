@@ -1,0 +1,28 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [BM43112DC02_PIJIAKUN.PrjPcb]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GTO]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GTP]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GTS]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GTL]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.G1]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.G2]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GBL]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GBS]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GBP]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GBO]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GM1]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GKO]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GPT]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GPB]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GD1]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GG1]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.GM]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.EXTREP]
+   Generated File[BM43112DC02_PIJIAKUN_PCB.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 17:59:39 On 2026/8/17
