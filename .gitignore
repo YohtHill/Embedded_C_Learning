@@ -12,5 +12,5 @@
 # VS Code 配置（一般提交，但如果想忽略可以取消注释）
 # .vscode/
 
-# PCB 工程（不上传到 GitHub）
-Hardware/PCB_Prj/
+# PCB 工程（2026-08-17 起上传到 GitHub）
+# Hardware/PCB_Prj/
