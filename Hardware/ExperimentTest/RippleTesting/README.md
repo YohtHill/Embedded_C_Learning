@@ -1,5 +1,7 @@
 # 直流电源纹波与噪声测量（Ripple Testing）
 
+[中文](README.md) | [English](README_EN.md)
+
 ## 实验目的
 
 对直流电源输出端的**纹波（Ripple）和噪声（Noise）**进行精确测量，评估电源输出质量，验证是否满足设计要求，为产品设计和电源优化提供依据。

@@ -2,6 +2,8 @@
 
 > 使用 **Altium Designer** 设计的 PCB 板卡项目，共 6 个。每个项目包含完整的工程文件。
 
+[中文](README.md) | [English](README_EN.md)
+
 ## 项目列表
 
 | 项目 | 说明 | 状态 | 更新日期 |
