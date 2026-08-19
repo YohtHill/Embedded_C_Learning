@@ -25,7 +25,8 @@ project/
 ├── BOM/       # Bill of Materials (for component purchasing)
 ├── SMT/       # Assembly files (coordinates/refdes, for SMT assembly)
 ├── DWG/       # Mechanical drawings (dimensions)
-└── DXF/       # Outline/structure references
+├── DXF/       # Outline/structure references
+└── Library/   # Altium integrated library (.IntLib)
 ```
 
 ## File Type Reference
@@ -39,6 +40,7 @@ project/
 | `.dwg` / `.dxf` | Mechanical drawings |
 | `.pdf` | Output documents (drawings/reports) |
 | `.zip` | Packaged files |
+| `.IntLib` | Altium integrated library |
 
 ## Notes
 
